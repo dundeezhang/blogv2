@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "ab292871ce0095a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e26c149accda0860",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d21888d6b85a9d07",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8cae6a1324efde9",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc68dd1413425b14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e6b2d6b1bab1ffd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c637940c8a10d36a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bdac248f6b2d00d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ebb8fe42a055a0a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb379c8c03559cb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adb6d060263735a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "website-updates.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for website-updates"
+            }
+          },
+          {
+            "id": "0ec8455a41fae0a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "website-updates.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from website-updates"
+            }
+          },
+          {
+            "id": "d24e71c187ab9e7f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c142980bbcec64f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "website-updates.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of website-updates"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d21888d6b85a9d07",
+  "lastOpenFiles": [
+    "cs146-l1.md",
+    "cs146-l2.md",
+    "website-updates.md",
+    "making-website-1.md",
+    "assets/website-updates/dundeezhangv4r2blog.png",
+    "online-highschool.md",
+    "assets/website-updates/dundeezhangv4r1.png.sb-ecf9f282-PaTITZ",
+    "assets/website-updates/dundeezhangv4r2.png",
+    "assets/website-updates/FireShot Capture 004 - Dundee Zhang - dundeezhang.com.png.sb-ecf9f282-FJMjUQ",
+    "assets/website-updates/dundeezhangv3blog.png",
+    "assets/website-updates/dundeezhangv3home.png",
+    "assets/website-updates/dundeezhangv2blog.png",
+    "assets/website-updates/dundeezhangv4r1.png",
+    "cs146-t1.md",
+    "assets/website-updates/dundeezhangv2home.png",
+    "assets/dundeezhangv1home.md",
+    "assets/website-updates/dundeezhangv1home.png",
+    "assets/website-updates"
+  ]
+}
