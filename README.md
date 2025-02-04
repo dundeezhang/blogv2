@@ -6,4 +6,10 @@ Built using TypeScript, React, and CSS.
 
 Contains notes about my life, lectures, and developing journey!
 
-Visit at [blog.dhz.app](blog.dhz.app). Here you can find my projects, blog, and contact information.
+To Do:
+
+- Add search
+- Add tags
+- Add filter
+
+Visit at [blog.dhz.app](blog.dhz.app).
