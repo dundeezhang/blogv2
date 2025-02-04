@@ -1,0 +1,71 @@
+.about-me-ptext {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 3vh;
+}
+
+span.about-me-paragraph {
+    background: radial-gradient(
+        circle at 100%,
+        rgb(112, 92, 4),
+        rgb(150, 136, 4)
+    );
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 2.2s linear infinite;
+}
+
+span.link-hover:hover {
+    background: radial-gradient(circle at 100%, rgb(0, 0, 0), rgb(34, 34, 34));
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 2.2s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+    to {
+        background-position: 200% center;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    span.about-me-paragraph {
+        background: radial-gradient(
+            circle at 100%,
+            rgb(218, 207, 90),
+            rgb(214, 211, 182)
+        );
+        font-weight: 600;
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animatedTextGradient 2.2s linear infinite;
+    }
+
+    span.link-hover:hover {
+        background: radial-gradient(
+            circle at 100%,
+            rgb(255, 255, 255),
+            rgb(209, 209, 209)
+        );
+        font-weight: 600;
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animatedTextGradient 2.2s linear infinite;
+    }
+
+    @keyframes animatedTextGradient {
+        to {
+            background-position: 200% center;
+        }
+    }
+}

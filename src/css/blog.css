@@ -1,0 +1,169 @@
+.blog-header {
+    background-color: rgb(9, 9, 9);
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.title-div {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+.blog-title {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+}
+
+.blog-subtitle {
+    color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+.navbar {
+    margin: auto;
+    width: fit-content;
+}
+
+.end-of-articles {
+    background-color: rgb(24, 24, 24);
+    margin: auto;
+    max-width: 1000px;
+    padding: 1rem;
+    color: white;
+    padding-bottom: 3.5vmin;
+}
+
+div.blog-preview {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 3vmin;
+    margin: auto;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.open-article-button {
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem;
+    border: solid;
+    border-color: transparent;
+    margin: 1vmin 0.5vmin;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.open-article-button:hover {
+    border-color: white;
+}
+
+.blog-preview-title {
+    color: white;
+    font-size: calc(10px + 1vw);
+    width: fit-content;
+}
+
+.blog-preview-title:hover {
+    background: radial-gradient(
+        circle at 100%,
+        rgb(226, 137, 231),
+        rgb(224, 191, 225),
+        rgb(209, 79, 216),
+        rgb(233, 189, 235)
+    );
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 2.2s linear infinite;
+}
+
+.date-published-header {
+    color: rgb(200, 200, 200);
+    font-size: calc(10px + 0.5vw);
+}
+
+.blog-preview-desc {
+    color: rgb(255, 255, 255);
+    font-size: calc(10px + 0.5vw);
+    margin: 0;
+    font-weight: 500;
+}
+
+hr.card-divider {
+    margin: 1rem 0 0;
+}
+
+p.highlight-color {
+    color: rgb(95, 192, 209);
+    margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+    .blog-header {
+        background-color: rgb(166, 237, 252);
+        color: black;
+    }
+
+    .blog-title {
+        color: black;
+    }
+
+    .blog-subtitle {
+        color: rgb(70, 70, 70);
+    }
+
+    div.blog-preview {
+        background-color: rgb(228, 247, 255);
+        color: black;
+    }
+
+    .open-article-button {
+        color: black;
+    }
+
+    .open-article-button:hover {
+        border-color: black;
+    }
+
+    .blog-preview-title {
+        color: black;
+        font-size: calc(10px + 1vw);
+    }
+
+    .blog-preview-title:hover {
+        background: radial-gradient(
+            circle at 100%,
+            rgb(18, 100, 112),
+            rgb(49, 167, 185),
+            rgb(11, 68, 76),
+            rgb(27, 150, 169)
+        );
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animatedTextGradient 2.2s linear infinite;
+    }
+
+    .date-published-header {
+        color: rgb(70, 70, 70);
+    }
+
+    .blog-preview-desc {
+        color: rgb(0, 0, 0);
+    }
+
+    .end-of-articles {
+        background-color: rgb(228, 247, 255);
+        color: black;
+        padding-bottom: 3.5vmin;
+    }
+
+    p.highlight-color {
+        color: rgb(49, 97, 106);
+    }
+}
