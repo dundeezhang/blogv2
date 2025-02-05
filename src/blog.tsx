@@ -31,7 +31,7 @@ export default function Blog() {
                 <div className="blog-header">
                     <div className="title-div">
                         <h1 className="blog-title">/blog</h1>
-                        <h2 className="blog-subtitle">Life Updates</h2>
+                        <h2 className="blog-subtitle">Life and Dev Notes</h2>
                     </div>
                 </div>
                 <div className="navbar-wrapper">
