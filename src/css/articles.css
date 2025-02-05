@@ -113,6 +113,13 @@ p.end-of-article-marker {
     color: rgb(226, 137, 231);
 }
 
+blockquote {
+    margin: 20px auto;
+    padding: 10px 0px 10px 20px;
+    border-left: solid;
+    border-color: rgb(255, 255, 255);
+}
+
 @media (prefers-color-scheme: light) {
     .article-content {
         background-color: rgb(228, 247, 255);
@@ -173,5 +180,12 @@ p.end-of-article-marker {
 
     .article-content a:hover {
         color: rgb(0, 0, 0);
+    }
+
+    blockquote {
+        margin: 20px auto;
+        padding-left: 20px;
+        border-left: solid;
+        border-color: rgb(84, 84, 84);
     }
 }
