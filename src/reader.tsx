@@ -21,11 +21,11 @@ const blogClick = () => {
 };
 
 const projectsClick = () => {
-  window.open("/#projects", "_self");
+  window.open("https://dundeezhang.com/#projects", "_self");
 };
 
 const contactClick = () => {
-  window.open("/#contactform", "_self");
+  window.open("https://dundeezhang.coms/#contactform", "_self");
 };
 
 const MarkdownTest = () => {
