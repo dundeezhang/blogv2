@@ -15,6 +15,12 @@ interface Datas {
 
 const blogData: [string, string, string, string][] = [
     [
+        "CS 146 Lecture 11 Notes",
+        "February 6, 2025",
+        "More on vectors in Racket. Translating to arrays in C.",
+        "cs146-lecture11",
+    ],
+    [
         "CS 146 Lecture 10 Notes",
         "February 5, 2025",
         "Arrays (Vectors) in Racket. Rethinking current Racket semantics.",

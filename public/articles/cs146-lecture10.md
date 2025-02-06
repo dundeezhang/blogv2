@@ -1,8 +1,8 @@
 # CS 146 Lecture 10 Notes
 
-February 05, 2025
+February 5, 2025
 
-> So now, tutorials are lectures. Yippee. Recall [Lecture 9](./cs146-lecture9.md) where we updated our substitution model.
+> So now, tutorials are lectures. Yippee. Recall [Lecture 9](./cs146-lecture9) where we updated our substitution model.
 
 ```scheme
 (define _v1 1)
@@ -69,7 +69,7 @@ As you can see, aliasing makes programs very difficult to understand.
 
 ## Memory and Vectors
 
-Recall that memory is a sequence of numbered "slots." Each slot (8 bits, one byte) is usually treated as part of a group of 4 (or 8). A **word** is 4 bytes in 32 bit machines and 8 bytes in 64 bit machines.
+Recall that memory is a sequence of numbered "slots." Each slot (8 bits, one byte) is usually treated as part of a group of 4 (or 8). A **word** is 4 bytes in 32 bit machines and 8 bytes in 64 bit machines. Look back to [Lecture 2](./cs146-lecture2) for the visualization.
 
 A new primitive data structure we can explore now is an _array_. An array is a "slice" of memory, which is a sequence of consecutive memory locations. This will be discussed in the future at length when we return to the C language.
 

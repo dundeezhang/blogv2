@@ -1,10 +1,10 @@
 # CS 146 Lecture 9 Notes
 
-February 04, 2025
+February 4, 2025
 
-Recall: "Finding" a value from [Lecture 8](./cs146-lecture8.md). Every value in memory has an address, so addresses could function as boxes.
+Recall: "Finding" a value from [Lecture 8](./cs146-lecture8). Every value in memory has an address, so addresses could function as boxes.
 
-Then for the increment function from [Lecture 8](./cs146-lecture8.md), instead of passing a value to a function, you pass the memory address.
+Then for the increment function from [Lecture 8](./cs146-lecture8), instead of passing a value to a function, you pass the memory address.
 
 ## Pointers
 
