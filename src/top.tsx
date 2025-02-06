@@ -1,17 +1,17 @@
-const homeClick = () => {
-    window.open("https://dundeezhang.com", "_self");
-};
-
 const blogClick = () => {
     window.open("/", "_self");
 };
 
+const homeClick = () => {
+    window.open("https://dundeezhang.com", "_self");
+};
+
 const projectsClick = () => {
-    window.open("https://dundeezhang.com/#projects", "_self");
+    window.open("https://dhz.app/", "_blank");
 };
 
 const contactClick = () => {
-    window.open("https://dundeezhang.com/#contactform", "_self");
+    window.open("https://x.com/dundeezhang", "_blank");
 };
 
 export default function Top() {
@@ -27,17 +27,17 @@ export default function Top() {
                 <div className="navbar">
                     <button
                         type="button"
+                        onClick={blogClick}
+                        className="open-article-button"
+                    >
+                        Home
+                    </button>
+                    <button
+                        type="button"
                         onClick={homeClick}
                         className="open-article-button"
                     >
                         Portfolio
-                    </button>
-                    <button
-                        type="button"
-                        onClick={blogClick}
-                        className="open-article-button"
-                    >
-                        Articles
                     </button>
                     <button
                         type="button"
@@ -51,7 +51,7 @@ export default function Top() {
                         onClick={contactClick}
                         className="open-article-button"
                     >
-                        Contact
+                        Twitter
                     </button>
                 </div>
             </div>
