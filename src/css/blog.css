@@ -72,7 +72,8 @@ div.blog-preview {
         rgb(226, 137, 231),
         rgb(224, 191, 225),
         rgb(209, 79, 216),
-        rgb(233, 189, 235)
+        rgb(233, 189, 235),
+        rgb(226, 137, 231)
     );
     background-size: 200% auto;
     color: #000;
@@ -140,7 +141,8 @@ p.highlight-color {
             rgb(18, 100, 112),
             rgb(49, 167, 185),
             rgb(11, 68, 76),
-            rgb(27, 150, 169)
+            rgb(27, 150, 169),
+            rgb(18, 100, 112)
         );
         background-size: 200% auto;
         color: #000;
