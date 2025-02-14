@@ -15,6 +15,12 @@ interface Datas {
 
 const blogData: [string, string, string, string][] = [
     [
+        "CS 146 Lecture 13 Notes",
+        "February 12, 2025",
+        "Continuation of pointers and memory layout in C.",
+        "cs146-lecture13",
+    ],
+    [
         "CS 146 Lecture 12 Notes",
         "February 11, 2025",
         "Pointer arithmetic and memory layout in C. The stack and the heap.",
