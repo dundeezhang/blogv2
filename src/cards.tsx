@@ -15,6 +15,18 @@ interface Datas {
 
 const blogData: [string, string, string, string][] = [
     [
+        "CS 146 Lecture 16 Notes",
+        "February 26, 2025",
+        "Crafting a Mutable Faux Racket interpreter.",
+        "cs146-lecture16",
+    ],
+    [
+        "CS 146 Lecture 15 Notes",
+        "February 25, 2025",
+        "ADT Sequences and Amortized Analysis in C.",
+        "cs146-lecture15",
+    ],
+    [
         "CS 146 Lecture 13 Notes",
         "February 12, 2025",
         "Continuation of pointers and memory layout in C.",
